@@ -1,5 +1,7 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Blahblahblah");
+        HelloWorldPrinter helloWorldPrinter = new HelloWorldPrinter("Asya", 12345);
+
+        helloWorldPrinter.printHelloWorld();
     }
 }
